@@ -50,7 +50,17 @@
           </ul>
         </li>
       </ul>
-      <div class="header__login-signup">
+      <div
+        id="current-user"
+        class="header__login-signup"
+        style="display: none;"
+      >
+        <span id="current-user-name" style="color: #fff;">absd</span>
+        <a id="logout-btn" href="#" class="header__login-signup-button"
+          >Logout</a
+        >
+      </div>
+      <div id="login-register" class="header__login-signup">
         <a href="./login_signup.html" class="header__login-signup-button"
           >Login</a
         >
@@ -270,6 +280,7 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/auth.js"></script>
     <script src="./scripts/main.js"></script>
     <a href="https://www.google.com" target="_blank">Tìm kiếm trên Google</a>
   </body>
